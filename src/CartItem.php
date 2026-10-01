@@ -8,6 +8,7 @@ use Illuminate\Contracts\Support\Jsonable;
 
 use Illuminate\Support\Arr;
 
+#[\AllowDynamicProperties]
 class CartItem implements Arrayable, Jsonable
 {
     /**
